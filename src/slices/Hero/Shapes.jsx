@@ -112,7 +112,7 @@ function Geometry({ r, position, geometry, materials }) {
                 <mesh
                     geometry={geometry}
                     onClick={handleClick}
-                    onPointerHover={handlePointerOver}
+                    onPointerOver={handlePointerOver}
                     onPointerOut={handlePointerOut}
                     visible={visible}
                     material={startingMaterial}
